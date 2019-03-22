@@ -2,6 +2,16 @@
 // string string exactly n times.
 // repeatStr("hello",4) ==> 'hellohellohellohello'
 	
-	function repeatStr (n, s) {
-		//your code is here
-	}
+  function repeatStr (s,n) {
+    //your code is here
+    var str = "";
+
+    while ( n > 0) {
+    
+      console.log(str+"\n");
+
+     str = str + s
+     n--;
+    }
+    return str;
+  }
